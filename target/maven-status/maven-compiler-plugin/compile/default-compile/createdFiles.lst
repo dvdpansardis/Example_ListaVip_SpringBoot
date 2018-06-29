@@ -1,0 +1,6 @@
+br\com\alura\listavip\controller\ConvidadoController.class
+br\com\alura\listavip\model\Convidado.class
+br\com\alura\listavip\service\ConvidadoService.class
+br\com\alura\listavip\repository\ConvidadoRepository.class
+br\com\alura\listavip\AppListaVip.class
+br\com\alura\listavip\configuration\DataSourceConfiguration.class

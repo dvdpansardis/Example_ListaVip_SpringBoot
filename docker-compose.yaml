@@ -1,0 +1,14 @@
+version: '2'
+services:
+    listavipdb:
+        image: mysql:5.5
+        container_name: "listavipdb"
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+#            - MYSQL_USER=root
+#            - MYSQL_PASSWORD=root
+            - MYSQL_DATABASE=listavip
+        ports:
+            - 3306:3306
+        volumes:
+            -  /database:/var/lib/mysql
